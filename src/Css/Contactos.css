@@ -1,0 +1,63 @@
+form {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #f2f8fd;
+    border: 2px solid #b357e9;
+    border-radius: 12px;
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #003366;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  
+  form p {
+    margin: 12px 0 6px;
+    font-weight: bold;
+    color: #003366;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #b357e9;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #fff;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  input[type="checkbox"] {
+    margin-top: 20px;
+    margin-right: 8px;
+  }
+  
+  button {
+    display: block;
+    margin-top: 20px;
+    background-color: #b357e9; /* rojo fuerte */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #7927a8; /* rojo más oscuro */
+  }
+  

@@ -1,4 +1,4 @@
-/* Reset y estilo general */
+
 * {
     box-sizing: border-box;
   }
@@ -13,11 +13,10 @@
     color: #003153; /* azul oscuro legible */
   }
   
-  /* HEADER */
   .site-header {
     width: 100%;
-    background: linear-gradient(90deg, #d0e6ff, #a6c8ff); /* degradado celeste suave */
-    border-bottom: 3px solid #b22222; /* rojo vino más fuerte */
+    background: linear-gradient(90deg, #000000, #000000); /* degradado celeste suave */
+    border-bottom: 3px solid #b357e9; /* rojo vino más fuerte */
     padding: 15px 0;
     box-shadow: 0 2px 6px rgba(178, 34, 34, 0.2);
     position: sticky;
@@ -44,7 +43,6 @@
     transform: scale(1.05);
   }
   
-  /* Navegación */
   nav {
     display: flex;
     gap: 30px;
@@ -52,7 +50,7 @@
   
   nav a {
     text-decoration: none;
-    color: #b22222; /* rojo vino */
+    color: #b357e9; 
     font-weight: 600;
     font-size: 1rem;
     padding: 8px 12px;
@@ -62,36 +60,33 @@
   
   nav a:hover,
   nav a:focus {
-    background-color: #b15c5c;
+    background-color: #7927a8;
     color: #f5faff;
     outline: none;
   }
   
-  /* MAIN CONTENT */
   .main-content {
     max-width: 1200px;
     margin: 50px auto 80px auto;
     padding: 0 20px;
-    min-height: calc(100vh - 140px); /* altura mínima para que footer esté abajo */
+    min-height: calc(100vh - 140px); 
     background-color: #ffffff;
     box-shadow: 0 0 15px rgba(0, 49, 83, 0.1);
     border-radius: 10px;
   }
   
-  /* FOOTER */
   .site-footer {
     width: 100%;
-    background-color: #d0e6ff;
-    border-top: 3px solid #b22222;
+    background-color: #000000;
+    border-top: 3px solid #b357e9;
     text-align: center;
     padding: 15px 20px;
-    color: #003153;
+    color: #ffffff;
     font-weight: 500;
     font-size: 0.9rem;
     box-shadow: 0 -2px 6px rgba(178, 34, 34, 0.15);
   }
   
-  /* Responsive: ajustes para pantallas pequeñas */
   @media (max-width: 768px) {
     .nav-container {
       flex-direction: column;
