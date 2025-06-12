@@ -1,0 +1,68 @@
+/* Wrapper principal del componente Productos */
+.productos-view {
+    padding: 40px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #fff;
+  }
+  
+  /* Cada producto individual */
+  .productos-view .producto {
+    border: 1px solid #7927a8;
+    border-radius: 14px;
+    padding: 24px;
+    margin-bottom: 32px;
+    box-shadow: 0 0 8px rgba(179, 87, 233, 0.2);
+    transition: transform 0.2s ease;
+  }
+
+  .titulo {
+    font-size: 2.2rem;
+    color: #003366;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .productos-view .producto:hover {
+    transform: scale(1.01);
+  }
+  
+  /* Título del producto */
+  .productos-view .producto h3 {
+    color: #b357e9;
+    margin-bottom: 10px;
+  }
+  
+  /* Texto general */
+  .productos-view .producto p {
+    margin: 6px 0;
+    color: #000000;
+  }
+  
+  /* Marca destacada */
+  .productos-view .producto .marca {
+    color: #7927a8;
+    font-weight: bold;
+  }
+  
+  /* Galería de imágenes */
+  .productos-view .producto .fotos {
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .productos-view .producto .fotos img {
+    width: 140px;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid #7927a8;
+    object-fit: cover;
+    transition: transform 0.2s ease;
+  }
+  
+  .productos-view .producto .fotos img:hover {
+    transform: scale(1.05);
+  }
+  
