@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router'
+import { HashRouter, Route, Routes } from 'react-router'
 import './App.css'
 import Layout from './Components/Layout.jsx'
 import Contactos from './Components/Contactos.jsx'
@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<Layout/>}>
               <Route index element={<Home />}></Route>
@@ -24,7 +24,7 @@ function App() {
               <Route path="*" element={<Notfound/>}></Route>
           </Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   )
 }
