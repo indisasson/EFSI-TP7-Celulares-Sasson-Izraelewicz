@@ -19,6 +19,18 @@ export const marcas = [
       ]
     },
     {
+      id: 5,
+      nombre: 'iPhone 15',
+      descripcion: 'Pantalla Super Retina XDR, chip A16 Bionic, cámara de 48 MP',
+      precio: 1299,
+      marcaId: 1,
+      fotos: [
+        'https://i5.walmartimages.com/seo/Used-Apple-iPhone-14-Pro-Max-128GB-Gold-T-Mobile-MQ8Q3LL-A-Used-Good-Condition_7ad525f3-bb31-4d74-865e-2ebfbe887d90.921fbc6b84ba1d45c22066d7e6ff026f.jpeg',
+        'https://i5.walmartimages.com/seo/Pre-Owned-Apple-iPhone-14-Pro-256GB-Deep-Purple-Unlocked-MQ1D3LL-A-Refurbished-Good_36eab993-bd5b-4b25-bb56-08d46551b7b7.516c6b9965ca06d0641ea70de9326a27.jpeg',
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfevN4MM0cKJaROvI-ecLka87sKuUu3CJU_w&s'
+      ]
+    },
+    {
       id: 2,
       nombre: 'Samsung Galaxy S23',
       descripcion: 'Pantalla AMOLED 6.1", Snapdragon 8 Gen 2, cámara triple',

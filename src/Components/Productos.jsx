@@ -5,7 +5,7 @@ import { useParams } from "react-router-dom";
 function Productos() {
   let { idCelular, idMarca } = useParams();
   idCelular = Number(idCelular) || -1; 
-  idMarca = Number(idMarca) || -1; /*ver idMara */
+  idMarca = Number(idMarca) || -1; 
 
   return (
     <>
@@ -13,7 +13,7 @@ function Productos() {
         <h1 className="titulo">Productos disponibles</h1>
 
         {celulares.map((c) =>
-          c.id == idCelular || idCelular == -1 ? (
+          (idCelular == -1 && idMarca == -1) || c.id == idCelular || c.marcaId == idMarca ? (
             <div key={c.id} className="producto">
               <h3>{c.nombre}</h3>
               <p>{c.descripcion}</p>
