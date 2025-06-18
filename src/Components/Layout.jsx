@@ -1,7 +1,6 @@
 import { Link, Outlet } from "react-router-dom"
 import '../Css/Layout.css'
 import logo from '../assets/logo.png'
-import {celulares } from './data.js';
 
 function Layout() {
   return (
@@ -13,7 +12,6 @@ function Layout() {
             <Link to="/">Home</Link>
             <Link to="/quienes-somos">Nosotros</Link>
             <Link to="/productos">Productos</Link>
-            { celulares.map(c => <Link to={`/productos/${c.id}`}>Celular {c.nombre}</Link> ) }
             <Link to="/contactos">Contactos</Link>
           </nav>
         </div>
